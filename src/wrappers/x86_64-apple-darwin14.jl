@@ -5,6 +5,7 @@ export libexpat, xmlwf
 PATH = ""
 LIBPATH = ""
 LIBPATH_env = "DYLD_FALLBACK_LIBRARY_PATH"
+LIBPATH_default = "~/lib:/usr/local/lib:/lib:/usr/lib"
 
 # Relative path to `libexpat`
 const libexpat_splitpath = ["lib", "libexpat.1.6.9.dylib"]
@@ -38,8 +39,9 @@ function xmlwf(f::Function; adjust_PATH::Bool = true, adjust_LIBPATH::Bool = tru
         end
     end
     if adjust_LIBPATH
-        if !isempty(get(ENV, LIBPATH_env, ""))
-            env_mapping[LIBPATH_env] = string(LIBPATH, ':', ENV[LIBPATH_env])
+        LIBPATH_base = get(ENV, LIBPATH_env, expanduser(LIBPATH_default))
+        if !isempty(LIBPATH_base)
+            env_mapping[LIBPATH_env] = string(LIBPATH, ':', LIBPATH_base)
         else
             env_mapping[LIBPATH_env] = LIBPATH
         end
@@ -58,7 +60,7 @@ function __init__()
 
     # Initialize PATH and LIBPATH environment variable listings
     global PATH_list, LIBPATH_list
-    # We first need to add to LIBPATH_list the libraries provided by Julia
+    # Lastly, we need to add to LIBPATH_list the libraries provided by Julia
     append!(LIBPATH_list, [joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)])
     global libexpat_path = normpath(joinpath(artifact_dir, libexpat_splitpath...))
 
