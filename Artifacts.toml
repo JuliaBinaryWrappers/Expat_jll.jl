@@ -1,113 +1,113 @@
 [[Expat]]
-arch = "i686"
-git-tree-sha1 = "d2b09d4dd0bbfbb8e2f3a8642071b4e60f58f378"
-libc = "musl"
+arch = "aarch64"
+git-tree-sha1 = "a0c1e4c8f7d685fbfe4d49edae87e36b60ea60b2"
+libc = "glibc"
 os = "linux"
 
     [[Expat.download]]
-    sha256 = "f23162cfd124b6d8bb01e6263cfe5711156e0a7f623cb969021807acd1637865"
-    url = "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.2.7+1/Expat.v2.2.7.i686-linux-musl.tar.gz"
+    sha256 = "20b47106ea44be73e37a70e92c7f63f2f9ee19c6d41c433e130010963ad5e7df"
+    url = "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.2.7+3/Expat.v2.2.7.aarch64-linux-gnu.tar.gz"
 [[Expat]]
 arch = "aarch64"
-git-tree-sha1 = "0b27ff626b324cee1ed3fa30e8bb55662a7e249c"
+git-tree-sha1 = "f1bbd005fb5b3488947a06b7d32987702390ebc0"
 libc = "musl"
 os = "linux"
 
     [[Expat.download]]
-    sha256 = "b5cdd7fe335eb614cb48565ca79b3f38a5befa50e7c7d07b113be6f37bd7bd5a"
-    url = "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.2.7+1/Expat.v2.2.7.aarch64-linux-musl.tar.gz"
-[[Expat]]
-arch = "i686"
-git-tree-sha1 = "55fd3bb82eb7a6354fb96b57cd3e80597f57c36d"
-os = "windows"
-
-    [[Expat.download]]
-    sha256 = "5798ae649af06812267b55dbfbb752408228cd23ea43f4d6ed32e3a30b2ef43a"
-    url = "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.2.7+1/Expat.v2.2.7.i686-w64-mingw32.tar.gz"
-[[Expat]]
-arch = "x86_64"
-git-tree-sha1 = "147467d224f19885990ec02195d5789f6a6144a4"
-os = "windows"
-
-    [[Expat.download]]
-    sha256 = "917bc26c7c8c7949eb5561bdca4c834965244785f65f5470c9fe336648c362bc"
-    url = "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.2.7+1/Expat.v2.2.7.x86_64-w64-mingw32.tar.gz"
+    sha256 = "a32ed28ecc1da6282964379944ac2663f4b40b0e78f28e3472cbcc0fef4f3d54"
+    url = "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.2.7+3/Expat.v2.2.7.aarch64-linux-musl.tar.gz"
 [[Expat]]
 arch = "armv7l"
-git-tree-sha1 = "1f572a7f4c003db041efcc552a4e68fe0b3751a6"
+git-tree-sha1 = "436bb12929a6d071e12ef397b38b298a79003fc2"
 libc = "glibc"
 os = "linux"
 
     [[Expat.download]]
-    sha256 = "60b7cf7c2ff36fe304e6af056a810e1a798e652a60fe53e6542345194e86541c"
-    url = "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.2.7+1/Expat.v2.2.7.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "433a1df394c72de82847ef229e7c8f927427b25a79c0d506ff78f917e037132a"
+    url = "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.2.7+3/Expat.v2.2.7.armv7l-linux-gnueabihf.tar.gz"
 [[Expat]]
 arch = "armv7l"
-git-tree-sha1 = "e9240e64315a7d4cc76cc908cf483cca85764a07"
+git-tree-sha1 = "07e8510a18441a63a1e052601192553ea87a1565"
 libc = "musl"
 os = "linux"
 
     [[Expat.download]]
-    sha256 = "edd4f2f615d72ddefe815c21eafa1e03f76ac4ffa35294787e60602628098185"
-    url = "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.2.7+1/Expat.v2.2.7.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "027d72c17c665eb5da2d8517ab1b833ee8511f9222104066f97f91ddd77c38a6"
+    url = "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.2.7+3/Expat.v2.2.7.armv7l-linux-musleabihf.tar.gz"
 [[Expat]]
 arch = "i686"
-git-tree-sha1 = "f8c61af0485a61c39efb72eaa28c5a4bf1378faa"
+git-tree-sha1 = "9f5f0856141cbaa4df122072b4d183b056bca054"
 libc = "glibc"
 os = "linux"
 
     [[Expat.download]]
-    sha256 = "e0c2c5080fe42f32ab2d9308335f2fa3c2b32b89197cef39fc8589fd357ca640"
-    url = "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.2.7+1/Expat.v2.2.7.i686-linux-gnu.tar.gz"
+    sha256 = "e3b75cbd05cfea378b48807bdb9afd0018c82bca0009580ef975458a3bb87c51"
+    url = "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.2.7+3/Expat.v2.2.7.i686-linux-gnu.tar.gz"
 [[Expat]]
-arch = "x86_64"
-git-tree-sha1 = "58a0d0c25b6c326d9f6c2efc2f67813a72d53e8a"
-libc = "glibc"
+arch = "i686"
+git-tree-sha1 = "db7145c9214c778a1f30a0dfa8ccab91e68294d9"
+libc = "musl"
 os = "linux"
 
     [[Expat.download]]
-    sha256 = "4f0615a31e50a48f7906c06b6e1778789562da77698f65211a8e3c087f7586db"
-    url = "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.2.7+1/Expat.v2.2.7.x86_64-linux-gnu.tar.gz"
+    sha256 = "1113f3d8ffa825c40b825d18f5f239eb9010d4bded56a11490291537e1539b12"
+    url = "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.2.7+3/Expat.v2.2.7.i686-linux-musl.tar.gz"
+[[Expat]]
+arch = "i686"
+git-tree-sha1 = "f25bcc580e32455d047d84ed3f41397bda705901"
+os = "windows"
+
+    [[Expat.download]]
+    sha256 = "15f0ac2de99277c01a9f37065bfc0530e3128ea653fec2439daf8c50bce326f2"
+    url = "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.2.7+3/Expat.v2.2.7.i686-w64-mingw32.tar.gz"
 [[Expat]]
 arch = "powerpc64le"
-git-tree-sha1 = "03ede8db56500611e7326d066365cda3173f6078"
+git-tree-sha1 = "237449ee1c5f0dcefe022f9214c124c8fdb1a8c2"
 libc = "glibc"
 os = "linux"
 
     [[Expat.download]]
-    sha256 = "3e2753964b4ea3fb37813d3c30ca61627e06b0994a1a2e5c11c05658019fee00"
-    url = "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.2.7+1/Expat.v2.2.7.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "db15785f0708071febd605a5bd15e5c760a785cee155b167755b455dcaaf9508"
+    url = "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.2.7+3/Expat.v2.2.7.powerpc64le-linux-gnu.tar.gz"
 [[Expat]]
 arch = "x86_64"
-git-tree-sha1 = "3b8c8bccbdeab8a80f9ad933523e612cb8e40811"
+git-tree-sha1 = "5309ae1017b247935837d4a140cbbb984afb062b"
 os = "macos"
 
     [[Expat.download]]
-    sha256 = "1af8114ec656c06f3d97ce54a84544c662ca67d8c2fdf3567e5dfc769cfd060a"
-    url = "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.2.7+1/Expat.v2.2.7.x86_64-apple-darwin14.tar.gz"
+    sha256 = "ce0d0fbc9ec848d481eb9656ad99853f95f8020669cabf7a219d2667f367f6e5"
+    url = "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.2.7+3/Expat.v2.2.7.x86_64-apple-darwin14.tar.gz"
 [[Expat]]
-arch = "aarch64"
-git-tree-sha1 = "8900d80cff2700af924fa8b2e6c7a52491fd3a78"
+arch = "x86_64"
+git-tree-sha1 = "652e052d1992a1ad5b132e9da16cee8f3c022502"
 libc = "glibc"
 os = "linux"
 
     [[Expat.download]]
-    sha256 = "1a913a8e213d68ae4271426c0f2107683d947009d32c66913e72f27d61aaf07b"
-    url = "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.2.7+1/Expat.v2.2.7.aarch64-linux-gnu.tar.gz"
+    sha256 = "14b94a1e5cbd706f45bfd153c5b530abfbe196f8693640f304e58096ecd2e3d7"
+    url = "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.2.7+3/Expat.v2.2.7.x86_64-linux-gnu.tar.gz"
 [[Expat]]
 arch = "x86_64"
-git-tree-sha1 = "02811853e31655798f04bc28fec1c7336ce9e59b"
-os = "freebsd"
-
-    [[Expat.download]]
-    sha256 = "50d1c743574d5aaf353d591915b2b120f503d2277f8b570f6964c8d8fe0fe813"
-    url = "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.2.7+1/Expat.v2.2.7.x86_64-unknown-freebsd11.1.tar.gz"
-[[Expat]]
-arch = "x86_64"
-git-tree-sha1 = "c92feb702d4a49a52bcae8f5c671c13e109c2f1e"
+git-tree-sha1 = "dfb20366b10e27e185de09c360ca98f92e8c3b09"
 libc = "musl"
 os = "linux"
 
     [[Expat.download]]
-    sha256 = "6a5cee2149d132b5f337bb53ef8a978c96e35ba4b9d54baad981062d4105eb39"
-    url = "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.2.7+1/Expat.v2.2.7.x86_64-linux-musl.tar.gz"
+    sha256 = "9033bd53d45af578d7e9c3dc792765db69fd86f3296872bb110ae4a8fe8d6cfe"
+    url = "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.2.7+3/Expat.v2.2.7.x86_64-linux-musl.tar.gz"
+[[Expat]]
+arch = "x86_64"
+git-tree-sha1 = "8b1b5a95573a7a5c4b1170e06de402ee4dcf10dc"
+os = "freebsd"
+
+    [[Expat.download]]
+    sha256 = "3acb525ff71ee143679c699b51059c8dd9ec1e567f6962cad60782820d133463"
+    url = "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.2.7+3/Expat.v2.2.7.x86_64-unknown-freebsd11.1.tar.gz"
+[[Expat]]
+arch = "x86_64"
+git-tree-sha1 = "7963f55ce3cbbf780a9e33907f714a832dee7e8b"
+os = "windows"
+
+    [[Expat.download]]
+    sha256 = "578302b85ff5b4ac99abed5c267a27443e7c1ad71f1b72b07d532db4a996d409"
+    url = "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.2.7+3/Expat.v2.2.7.x86_64-w64-mingw32.tar.gz"
