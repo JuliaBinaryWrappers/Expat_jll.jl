@@ -8,7 +8,7 @@ function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libexpat,
-        "lib/libexpat.1.13.1.dylib",
+        "lib/libexpat.1.14.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
